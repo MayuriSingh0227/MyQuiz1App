@@ -76,7 +76,7 @@
                 answerContainers[questionNumber].style.color = 'red';
             }
         });
-        resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+        resultsContainer.innerHTML = `Congratulaions!!! Your total score is ${numCorrect} out of ${myQuestions.length}`;
     }
 
     const quizContainer = document.getElementById('quiz');
