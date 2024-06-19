@@ -1,23 +1,44 @@
 (function() {
     const myQuestions = [
-        {
-            question: "What is 2*5*2?",
+         {
+            question: "Q1) Who is considered as the father of nation(India)?",
             answers: {
-                a: "30",
-                b: "40",
-                c: "20"
+                a: "Jawaharlal Nehru",
+                b: "Mahatma Gandhi",
+                c: "Dr. B.R. Ambedhkar"
             },
-            correctAnswer: "c"
+            correctAnswer: "b"
         },
         {
-            question: "What is the capital of uttarpradesh?",
+            question: "Q2) What is the capital of uttarpradesh?",
             answers: {
                 a: "Lucknow",
                 b: "kanpur",
                 c: "bilaspur"
             },
             correctAnswer: "a"
+        },
+
+        {
+            question: "Q3) Which day is celebrated as the father's day?",
+            answers: {
+                a: "16 june",
+                b: "16 may",
+                c: "16 july"
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "Q4) What qualities should a person have as a good communicator?",
+            answers: {
+                a: "Good listener",
+                b: "Good speaker",
+                c: "should be good listener,writer,speakar simultaneously"
+            },
+            correctAnswer: "c"
         }
+            
+       
     ];
 
     function buildQuiz() {
