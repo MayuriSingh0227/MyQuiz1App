@@ -4,18 +4,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #423a6a;
 }
 .quiz-container {
-    background: #fff;
-    padding: 20px;
+    background: #dfe3d0;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+    width: 50%;
+    height:40%;
+
 }
 button {
-    background: #007BFF;
+    background: #257ce0;
     color: #fff;
     border: none;
     padding: 10px 20px;
